@@ -1,0 +1,30 @@
+{
+    "name": "dlouvard/laravel-releasenote",
+    "description": "Release Note for Laravel 5",
+    "keywords": [
+        "laravel",
+        "release",
+        "releasenote",
+        "note"
+    ],
+    "homepage": "https://github.com/dlouvard/laravel-releasenote",
+    "license": "MIT",
+    "require": {
+        "php" : ">=7.0.0",
+        "illuminate/database": "^5.1",
+        "illuminate/events": "^5.1",
+        "doctrine/dbal": "^2.5"
+    },
+    "require-dev": {
+		"phpunit/phpunit" : "^4.0",
+		"mockery/mockery": "^0.9.4",
+		"satooshi/php-coveralls": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dlouvard\\Releasenote\\": "src/"
+        }
+    },
+    "scripts": {
+    }
+}
