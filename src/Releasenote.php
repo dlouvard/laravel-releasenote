@@ -9,7 +9,7 @@
 namespace Dlouvard\Releasenote;
 
 
-class Release
+class Releasenote
 {
 
 }

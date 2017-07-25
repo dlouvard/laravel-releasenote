@@ -15,7 +15,9 @@ class CreateReleasenote extends Migration
     {
         Schema::create('releases', function (Blueprint $table) {
             $table->increments('id');
-            $table->longText('body');
+            $table->longText('body')->nullable();
+            $table->longText('newthings')->nullable();
+            $table->longText('ameliorations')->nullable();
             $table->string('version')->nullable();
             $table->longText('right')->nullable();
             $table->boolean('status')->default(0);

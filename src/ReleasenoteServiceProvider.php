@@ -26,7 +26,7 @@ class ReleasenoteServiceProvider extends ServiceProvider
     {
         //$this->mergeConfigFrom(__DIR__ . '/config/changelog.php', 'changelog');
         $this->app->singleton('Releasenote', function ($app) {
-            return new \Dlouvard\Releasenote\Release();
+            return new \Dlouvard\Releasenote\Releasenote();
         });
     }
 }

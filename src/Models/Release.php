@@ -1,5 +1,7 @@
 <?php
-namespace Dlouvard\Releasenote;
+
+namespace Dlouvard\Releasenote\Models;
+
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -11,7 +13,13 @@ use Illuminate\Database\Eloquent\Model;
 class Release extends Model
 {
     public $table = 'releases';
-    protected $fillable = [];
-
-
+    protected $fillable = [
+        'versions',
+        'body',
+        'newthings',
+        'ameliorations',
+        'version',
+        'right',
+        'status'
+    ];
 }
