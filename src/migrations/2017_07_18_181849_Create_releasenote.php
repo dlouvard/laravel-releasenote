@@ -18,6 +18,8 @@ class CreateReleasenote extends Migration
             $table->longText('body')->nullable();
             $table->longText('newthings')->nullable();
             $table->longText('ameliorations')->nullable();
+            $table->longText('bugs')->nullable();
+            $table->longText('reflexions')->nullable();
             $table->string('version')->nullable();
             $table->longText('right')->nullable();
             $table->boolean('status')->default(0);

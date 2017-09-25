@@ -18,6 +18,8 @@ class Release extends Model
         'body',
         'newthings',
         'ameliorations',
+        'bugs',
+        'reflexions',
         'version',
         'right',
         'status'
