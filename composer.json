@@ -9,22 +9,11 @@
 	],
 	"homepage": "https://github.com/dlouvard/laravel-releasenote",
 	"license": "MIT",
-	"repositories": [{
-			"type": "vcs",
-			"url": "https://github.com/bluemountainteam/bootform"
-		},
-		{
-			"type": "vcs",
-			"url": "https://github.com/bluemountainteam/translation"
-		}
-	],
 	"require": {
 		"php": ">=7.0.0",
 		"illuminate/database": "^5.1",
 		"illuminate/events": "^5.1",
 		"doctrine/dbal": "^2.5",
-		"bluemountainteam/bootform": "master@dev",
-		"bluemountainteam/translation": "master@dev"
 	},
 	"require-dev": {
 		"phpunit/phpunit": "^4.0",
